@@ -1,83 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CLB Lập trình XYZ</title>
-</head>
-<body>
-    <h1>CLB Lập trình XYZ</h1>
-    <p>Nơi đam mê công nghệ hội tụ</p>
+  </head>
+  <body>
+    <!-- HEADER: logo + tên CLB -->
+    <header>
+      <h1>CLB Lập trình XYZ</h1>
+      <p>Nơi đam mê công nghệ hội tụ - Thành lập 2020</p>
+    </header>
 
-    <h2>Hoạt động câu lạc bộ</h2>
-    <figure>
-        <img src="images/hackathon.jpg" alt="Đội thi Hackathon 2025" width="600px">
-        <figcaption>Đội CLB tham gia Hackathon 2025 - Giải nhì toàn quốc</figcaption>
-    </figure>
+    <!-- NAV: Menu điều hướng -->
+    <nav>
+      <a href="#about">Giới thiệu</a> | <a href="#activities">Hoạt động</a> |
+      <a href="#video">Video</a> | <a href="#register">Đăng ký</a> |
+      <a href="#contact">Liên hệ</a>
+    </nav>
 
+    <!-- MAIN: Nội dung chính -->
+    <main>
+      <section id="about">
+        <h2>Giới thiệu CLB</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          corrupti magni excepturi, illo tempore consectetur impedit esse?
+          Facilis incidunt nihil in saepe molestiae delectus odio nemo? Vitae
+          minus sit tempora?
+        </p>
+        <p>
+          Sứ mệnh: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Possimus corrupti magni excepturi, illo tempore consectetur impedit
+          esse? Facilis incidunt nihil in saepe molestiae delectus odio nemo?
+          Vitae minus sit tempora?
+        </p>
+      </section>
 
-    <figure>
-        <img src="images/workshop.png" alt="Workshop hướng dẫn Git với 30 sinh viên" width="600px">
-        <figcaption>Workshop hướng dẫn Git cho tân sinh viên - Tháng 9/2025</figcaption>
-    </figure>
+      <section id="activities">
+        <h2>Hoạt động câu lạc bộ</h2>
+        <figure>
+          <img
+            src="images/hackathon.jpg"
+            alt="Đội thi Hackathon 2025"
+            width="600px"
+          />
+          <figcaption>
+            Đội CLB tham gia Hackathon 2025 - Giải nhì toàn quốc
+          </figcaption>
+        </figure>
 
-    <h2>Video giới thiệu CLB</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yHBQ0seU8hQ?si=IWWbW5_KNGF_lWaf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <figure>
+          <img
+            src="images/workshop.png"
+            alt="Workshop hướng dẫn Git với 30 sinh viên"
+            width="600px"
+          />
+          <figcaption>
+            Workshop hướng dẫn Git cho tân sinh viên - Tháng 9/2025
+          </figcaption>
+        </figure>
+      </section>
 
-    <h2>Vị trí CLB</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14902.872450368042!2d105.787711449707!3d20.963832446573445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1773311377050!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <section id="video">
+        <h2>Video giới thiệu CLB</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yHBQ0seU8hQ?si=IWWbW5_KNGF_lWaf"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-    <h2>Podcast CLB</h2>
-    <audio controls src="audios/nguoiimlang.mp3">Trình duyệt của Bạn không hỗ trợ</audio>
+      <section id="map">
+        <h2>Vị trí CLB</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14902.872450368042!2d105.787711449707!3d20.963832446573445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1773311377050!5m2!1svi!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
 
-    <h2>Form đăng kí thành viên</h2>
-    <form action="" method="">
-        <label for="fullname">Họ và tên</label><br>
-        <input type="text" name="fullname" id="fullname" placeholder="Nguyễn Văn A" required>
-        <br><br>
+      <section id="podcast">
+        <h2>Podcast CLB</h2>
+        <audio controls src="audios/nguoiimlang.mp3">
+          Trình duyệt của Bạn không hỗ trợ
+        </audio>
+      </section>
 
-        <label for="email">Email</label><br>
-        <input type="email" name="email" id="email" placeholder="nva@gmail.com" required>
-        <br><br>
+      <section id="register">
+        <h2>Form đăng kí thành viên</h2>
+        <form action="" method="">
+          <label for="fullname">Họ và tên</label><br />
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Nguyễn Văn A"
+            required
+          />
+          <br /><br />
 
-        <label for="phone">Số điện thoại</label><br>
-        <input type="tel" name="phone" id="phone" placeholder="0902000111" pattern="[0-9]{10}" required>
-        <br><br>
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="nva@gmail.com"
+            required
+          />
+          <br /><br />
 
-        <label for="dob">Ngày sinh</label><br>
-        <input type="date" name="dob" id="dob">
-        <br><br>
+          <label for="phone">Số điện thoại</label><br />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="0902000111"
+            pattern="[0-9]{10}"
+            required
+          />
+          <br /><br />
 
-        <label>Giới tính</label><br>
-        <input type="radio" name="gender" id="male" value="male"> <label for="male">Nam</label>
-        <input type="radio" name="gender" id="female" value="female"> <label for="female">Nữ</label>
-        <input type="radio" name="gender" id="other" value="other"> <label for="other">Khác</label>
+          <label for="dob">Ngày sinh</label><br />
+          <input type="date" name="dob" id="dob" />
+          <br /><br />
 
-        <br><br>
+          <label>Giới tính</label><br />
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Nam</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Nữ</label>
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="other">Khác</label>
 
-        <label>Ngôn ngữ quan tâm</label><br>
-        <input type="checkbox" name="languages" id="html" value="html"> <label for="html">HTML</label>
-        <input type="checkbox" name="languages" id="css" value="css"> <label for="css">CSS</label>
-        <input type="checkbox" name="languages" id="js" value="js"> <label for="js">JS</label>
+          <br /><br />
 
-        <br><br>
+          <label>Ngôn ngữ quan tâm</label><br />
+          <input type="checkbox" name="languages" id="html" value="html" />
+          <label for="html">HTML</label>
+          <input type="checkbox" name="languages" id="css" value="css" />
+          <label for="css">CSS</label>
+          <input type="checkbox" name="languages" id="js" value="js" />
+          <label for="js">JS</label>
 
-        <label for="year">Năm học</label>
-        <select name="year" id="">
+          <br /><br />
+
+          <label for="year">Năm học</label>
+          <select name="year" id="">
             <option value="">-- Chọn năm --</option>
             <option value="1">Năm 1</option>
             <option value="2">Năm 2</option>
             <option value="3">Năm 3</option>
             <option value="4">Năm 4</option>
-        </select>
+          </select>
 
-        <br><br>
+          <br /><br />
 
-        <label for="message">Lý do muốn tham gia</label>
-        <textarea name="message" id="message" placeholder="Nhập lý do bạn muốn tham gia" rows="4" cols="50"></textarea>
-        
-        <br><br>
-        <button type="submit">Đăng ký</button>
-    </form>
-</body>
+          <label for="message">Lý do muốn tham gia</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Nhập lý do bạn muốn tham gia"
+            rows="4"
+            cols="50"
+          ></textarea>
+
+          <br /><br />
+          <button type="submit">Đăng ký</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Liên hệ</h2>
+        <p>Địa chỉ: 175 Tây Sơn, Kim Liên, Hà Nội</p>
+    </footer>
+  </body>
 </html>
